@@ -1,0 +1,109 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+    box-sizing: border-box;
+}
+
+/*styling the background (Add background colour )*/
+body{
+    background-color:#FFFFFF;
+    display: flex;
+}
+
+
+.fullTile{
+
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 50px 60px;
+    margin: auto;  /*add the fullTile center  . check this again*/
+    width: 1066px;
+    height: 635px;
+    position: relative;
+
+    margin-top: 194px;     /*set margins around the big tile*/
+    margin-bottom: 194px;
+    margin-left: 187px;
+    margin-right: 187px;
+    
+}
+
+
+
+
+
+.Sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 83px;
+    background-color: #FFFFFF;  
+    position: relative;
+  
+}
+
+
+.fullTile h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 85px;
+    color: #01C09D;
+}
+
+.fullTile hr {
+    width: 53px;
+    border: 1px #01C09D;
+    margin: 1em auto;
+    border-radius: 50;}
+
+
+.card{
+    background-color: #01C09D;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    height: 214px;
+    width: 208;;
+    transition: background-color 0.3s ease;
+}
+
+
+.card:hover{
+    background-color: #006B57;
+}
+
+
+.box1{
+    padding: 6% 6%;
+    text-align: center;
+    transition: all0.3s ease;
+}
+
+
+.box1 h2{
+    font-size: 25px;
+    margin-top: 10px;   
+    color: #000000;
+    padding: 25px;
+}
+
+
+
+.card:hover .box1{
+    transform: scale(1.03);
+}
+
+
+
+.box2 h3{
+    color:#FFFFFF;
+    padding-bottom: 5px;
+    font-size: 25px;
+
+}
+

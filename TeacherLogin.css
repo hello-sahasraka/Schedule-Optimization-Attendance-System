@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+    
+
+}
+
+/*Add background colour and set tile in center*/
+.back{
+    width: 100%;
+    min-height: 100;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+
+    
+
+   
+}
+
+/*styling the big tile (the box in the middle of the web page)*/
+.fullTile{
+
+    max-width: 1066px; 
+    height: 635px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.6);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    margin-top: 194px;     /*set margins around the big tile*/
+    margin-bottom: 194px;
+    margin-left: 187px;
+    margin-right: 187px;
+}
+
+
+
+
+/*add background colour to the two div (two tiles)to show as seperately*/
+.leftTile{
+    background-color: #FFFFFF;
+}
+.rightTile{
+    background-color:#01C09D;
+}
+
+
+
+
+
+
+
+/*styling the left tile*/
+
+
+.leftTile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+ .text-leftTile{
+    max-width: 100%;
+    padding: 100px;
+ }
+
+
+
+/*styling the title in left Tile*/
+.leftTile h1{
+    color: #01C09D;
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+
+/*styling horizontal line under the title*/
+.text-leftTile hr {
+    width: 53px;
+    border: 1px #01C09D;
+    margin: 1em auto;
+    border-radius: 50px;
+}
+
+
+/*styling the icons on the leftTile*/
+.icon{
+    width: 79px;
+    height: 79px;
+  
+
+}
+
+/*styling "Teacher"*/
+.leftTile .p1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 30px;
+}
+
+/*styling the text boxes */
+input[type="password"] {
+    width: 337px;
+   
+    padding: 13px;
+    margin-bottom: 20px;
+   
+    border: 1px #E7E7E7;
+    border-radius: 39px;
+    background-color: #E7E7E7; 
+
+    font-size: 14px;
+    color: #E7E7E7;
+    letter-spacing: 8%;
+}
+
+.text-leftTile .p2 {
+    font-size: 11px;
+   
+    margin: 9px;
+}
+
+/*styling the signin button*/
+button {
+    width:136px;
+    height: 44px;
+    padding: 10px;
+    background-color: #01C09D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #16a085; /*set to change the button colour when cursor move on it*/
+}
+
+
+.text-leftTile .p3 {
+    font-size: 12.5px;
+    text-align: left;
+    margin: 10px;
+}
+
+.text-leftTile .p4 {
+    font-size: 12px;
+    text-align: left;
+}
+
+
+
+/*styling the right side tile*/
+
+.rightTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.text-rightTile{
+    max-width: 100%;
+}
+
+
+.text-rightTile h1{
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 359px;
+
+    
+}
+
+.text-rightTile hr {
+    width: 53px;
+    border: 1px solid white;
+    margin: 1em auto;
+    border-radius: 50;
+}
+
+
+
+.text-rightTile p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 342px;
+    height: 136px;
+}
