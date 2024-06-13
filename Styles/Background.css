@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+}
+
+
+
+/* ----------Side Bar---------- */
+
+.sidebar{
+    height: 100%;
+    width: 240px;
+    background-color: #01C09D;
+    z-index: 100;
+}
+
+.sidebar-content{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FFFFFF;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.sidebar .logo img{
+    height: 38px;
+}
+
+.sidebar .dboard img,
+.sidebar .attendance .absent img,
+.sidebar .attendance .present img,
+.sidebar .register img{
+    height: 20px;
+    padding-right: 20px;
+}
+
+.sidebar .dboard,
+.sidebar .attendance .absent,
+.sidebar .attendance .present,
+.sidebar .register{
+    width: 200px;
+    display: flex;
+    /* cursor: pointer; */
+}
+
+.sidebar .attendance .absent a:hover {
+	opacity: 1;
+	font-weight: 700;
+}
+.sidebar .attendance .present a:hover {
+	opacity: 1;
+	font-weight: 700;
+}
+.sidebar .register a:hover{
+    font-size: 15px;
+	font-weight: 700;
+}
+
+.sidebar .icons{
+    height: 40vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar .attendance{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar .attendance p,
+.sidebar .dboard a:hover {
+    font-weight: 500;
+}
+
+/* ----------Side Bar---------- */
+
+/* ----------Top Bar----------- */
+
+.topbar{
+    height: 60px;
+    width: 100px;
+    background-color: #FFFFFF;
+    flex-grow: 1;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topbar .topbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 60px;
+}
+
+.topbar .admin{
+    display: flex;
+    align-items: center;
+}
+
+.topbar .admin img{
+    height: 40px;
+    padding-right: 10px;
+}
+
+.topbar .admin .aname{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.topbar .admin .aid{
+    color: #7C7C7C;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.topbar .date p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.topbar .signout-btn{
+    width: 110px;
+    height: 38px;
+    background-color: #22A699;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar .signout-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+}
+
+/* ----------Top Bar----------- */
+
+/* ----------Middle Upper----------- */
+
+.middle-upper{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    right: 60px;
+}
+
+.middle-upper-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-upper .middle-upperright{
+    text-align: right;
+}
+
+.middle-upper .middle-upperleft p:first-child,
+.middle-upper .middle-upperright p:first-child{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.middle-upper .middle-upperleft p:last-child{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.middle-upper .middle-upperright p:last-child{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ----------Middle Upper----------- */
+
+/* ----------Middle Lower----------- */
+
+.middle-lower{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.middle-lower .middle-lower_topic p{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.middle-lower .middle-lower_topic .underline{
+    height: 4px;
+    width: 38px;
+    border-radius: 50px;
+    background-color: #000000;
+}
+
+/* ----------Middle Lower----------- */
+
