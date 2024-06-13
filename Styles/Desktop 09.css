@@ -1,0 +1,180 @@
+.opacity {
+	opacity:0.75;
+}
+.information{
+    height: 100%;
+    display: flex;
+}
+#WhiteRectangle {
+	height:352px;
+	width:1000px;
+	background:#FFFFFF;
+	border-radius: 20px 20px 0 0;
+	left:300px;
+	top:210px;
+	position:absolute;
+}
+#Name {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#FFFFFF;
+	left:40px;
+	top: 8px;
+	position:absolute;
+}
+#ID {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#FFFFFF;
+	left:436px;
+	top: 8px;
+	position:absolute;
+}
+#TelNo {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#FFFFFF;
+	left:720px;
+	top: 8px;
+	position:absolute;
+}
+#BlueRectangle {
+	height:40px;
+	width:1000px;
+	background:#1B3C73;
+	border-radius: 20px 20px 0 0;
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+#Vector {
+	height:1px;
+	width:923px;
+	background:#ADADAD;
+	left:38px;
+	top: 0px;
+	position: absolute;
+}
+#Vector2 {
+	height:1px;
+	width:923px;
+	background: #ADADAD;
+	left:38px;
+	top: 50px;
+	position: absolute;
+}
+#TeacherImage {
+	height:37px;
+	width:37px;
+	left:40px;
+	top:6px;
+	position:absolute;
+}
+#TeacherName {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#1B3C73;
+	left:115px;
+	top: 15px;
+	position:absolute;
+}
+#TeacherID {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#7C7C7C;
+	left:440px;
+	top: 15px;
+	position:absolute;
+}
+#TeacherTel {
+	font-family:poppins;
+	font-size:15px;
+	font-weight: 500;
+	letter-spacing: 0.32px;
+	color:#000000;
+	left:735px;
+	top: 14px;
+	position:absolute;
+}
+.Information01 {
+	width:985px;
+	height:50px;
+	background:#FFFFFF;
+	left:0px;
+	top:40.99px;
+	position:absolute
+}
+.Information02 {
+	width:985px;
+	height:60px;
+	background:#FFFFFF;
+	left:0px;
+	top:90.99px;
+	position:absolute
+}
+.Information03 {
+	width:985px;
+	height:60px;
+	background:#FFFFFF;
+	left:0px;
+	top:140.99px;
+	position:absolute
+}
+.Information04 {
+	width:985px;
+	height:60px;
+	background:#FFFFFF;
+	left:0px;
+	top:190.99px;
+	position:absolute
+}
+.Information05 {
+	width:985px;
+	height:60px;
+	background:#FFFFFF;
+	left:0px;
+	top:240.99px;
+	position:absolute
+}
+.Information06 {
+	width:985px;
+	height:60px;
+	background:#FFFFFF;
+	left:0px;
+	top:290.99px;
+	position:absolute
+}
+#BackButton {
+	height:45px;
+	width:300px;
+	border-radius: 50px;
+	background: #22A699;
+	left:655px;
+	top: 582px;
+	position: absolute;
+	transition: width 0.1s, height 0.1s;
+}
+#BackButton:hover {
+	opacity:0.5;
+}
+#Back {
+	font-family:poppins;
+	font-size:18px;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 0.32px;
+	color:#FFFFFF;
+	left:735px;
+	top: 590px;
+	position:absolute;
+}
